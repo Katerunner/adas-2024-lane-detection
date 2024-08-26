@@ -1,0 +1,11 @@
+path: cul/
+train: 'train/images'
+val: 'valid/images'
+test: 'test/images'
+
+# class names
+names: 
+  0: LL
+  1: LC
+  2: RC
+  3: RR

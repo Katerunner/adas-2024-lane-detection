@@ -1,0 +1,4 @@
+ultralytics==8.2.79
+wandb==0.17.7
+tqdm~=4.66.2
+numpy~=1.26.4

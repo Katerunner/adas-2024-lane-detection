@@ -1,0 +1,14 @@
+name: pothole-detection-dev
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+  - nvidia
+dependencies:
+  - cudnn
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8
+  - jupyterlab
+  - ipywidgets
