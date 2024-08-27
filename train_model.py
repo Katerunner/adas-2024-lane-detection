@@ -17,8 +17,8 @@ name = 'yolov8x_640'
 # Train the model
 results = model.train(
     data="data_single_class.yaml",
-    epochs=30,
-    batch=10,
+    epochs=55,
+    batch=12,
     imgsz=640,
     patience=10,
     # cache="disk",

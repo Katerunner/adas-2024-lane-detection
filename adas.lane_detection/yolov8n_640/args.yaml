@@ -1,11 +1,11 @@
 task: detect
 mode: train
-model: yolov8x.pt
+model: yolov8n.pt
 data: data_single_class.yaml
-epochs: 55
+epochs: 75
 time: null
-patience: 10
-batch: 12
+patience: 20
+batch: 16
 imgsz: 640
 save: true
 save_period: -1
@@ -13,7 +13,7 @@ cache: false
 device: cuda:0
 workers: 0
 project: adas.lane_detection
-name: yolov8x_640
+name: yolov8n_640
 exist_ok: false
 pretrained: true
 optimizer: auto
@@ -103,4 +103,4 @@ erasing: 0.3
 crop_fraction: 1.0
 cfg: null
 tracker: botsort.yaml
-save_dir: adas.lane_detection\yolov8x_640
+save_dir: adas.lane_detection\yolov8n_640
